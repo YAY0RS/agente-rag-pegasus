@@ -47,12 +47,14 @@ body {
   gap: 15px;
 }
 
+/* Agrega esta línea a la clase .message que ya tienes para que respete los saltos de línea */
 .message {
   max-width: 80%;
   padding: 12px 16px;
   border-radius: 8px;
   line-height: 1.5;
   word-wrap: break-word;
+  white-space: pre-wrap; /* <--- Agrega solo esta línea nueva */
 }
 
 .system-message {
@@ -110,4 +112,26 @@ button:hover {
 button:disabled {
   background-color: #555;
   cursor: not-allowed;
+}
+
+/* Reemplaza tu bloque de 'input' por este bloque de 'textarea' */
+textarea {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3c3c3c;
+  color: white;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  resize: none;
+  overflow-y: hidden; /* Ocultamos el scroll por defecto */
+  min-height: 50px; /* <--- CAMBIAR height por min-height */
+  max-height: 200px;
+  overflow-y: hidden;
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid #007acc;
 }
