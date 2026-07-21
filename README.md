@@ -21,6 +21,19 @@ El proyecto sigue una arquitectura Full-Stack contenerizada, dividida en un moto
 - **Memoria de Contexto:** El cliente web gestiona el historial de la conversación, permitiendo al usuario hacer preguntas de seguimiento de forma natural.
 - **UI/UX Profesional:** Interfaz gráfica responsiva tipo terminal corporativa, con un área de texto auto-ajustable (`auto-resize`) y soporte para saltos de línea combinados (`Shift + Enter`).
 
+## 💬 Ejemplos de Uso
+
+Aquí tienes algunas preguntas que el agente puede responder basándose en los manuales de Santo Pegasus:
+
+**Usuario:** *"¿Qué base de datos utiliza el servicio de usuarios?"*
+**Agente RAG:** *"El servicio de usuarios (`user-service`) utiliza una base de datos PostgreSQL 15 RDS Multi-AZ denominada `users_db`. Esta base de datos es utilizada para almacenar datos relacionales de perfil de los usuarios."*
+
+**Usuario:** *"Si ocurre un incidente grave en producción, ¿cuáles son los pasos a seguir?"*
+**Agente RAG:** *"Según el manual de incidentes, en caso de que se caiga el servidor de producción, debes notificar al Incident Commander de turno y al líder técnico del servicio afectado..."*
+
+**Usuario:** *"¿Cuáles son los pasos para configurar mi entorno local de front-end?"*
+**Agente RAG:** *"Para configurar tu entorno local... 1. Asegúrate de tener instalado NVM... 2. Instala VS Code... 3. Ejecuta `npm install`..."*
+
 ## 🛠️ Requisitos Previos
 
 Para ejecutar este proyecto en tu entorno local necesitas:
