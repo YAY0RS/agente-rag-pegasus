@@ -56,15 +56,13 @@ Como los manuales no se suben a GitHub por privacidad, debes crear la carpeta de
    docker-compose exec agente_rag python procesar_documento.py
    ```
    (Espera a que la consola indique que los fragmentos se han guardado exitosamente).
-6. Acceso a los servicios:
+**6. Acceso a los servicios:**
+* **Front-end (Chat UI):** Abre el archivo `frontend/index.html` directamente en tu navegador web.
+* **API de FastAPI (Swagger UI):** Navega a `http://localhost:8000/docs`.
 
-Front-end (Chat UI): Abre el archivo frontend/index.html directamente en tu navegador web.
+## 🗺️ Roadmap y Próximas Mejoras
+- [ ] **Advanced RAG (History-Aware Retriever):** Implementar una reformulación de búsqueda con LangChain para evitar la dilución semántica al cambiar de contexto en conversaciones largas.
+- [ ] **Despliegue en la Nube:** Migrar el contenedor de Docker a una instancia de Oracle Cloud Infrastructure (OCI).
 
-API de FastAPI (Swagger UI): Navega a http://localhost:8000/docs.
-
-🗺️ Roadmap y Próximas Mejoras
-[ ] Advanced RAG (History-Aware Retriever): Implementar una reformulación de búsqueda con LangChain para evitar la dilución semántica al cambiar de contexto en conversaciones largas.
-
-[ ] Despliegue en la Nube: Migrar el contenedor de Docker a una instancia de Oracle Cloud Infrastructure (OCI).
-
-Desarrollado por Eduardo García Morales.
+---
+*Desarrollado por Eduardo García Morales.*
