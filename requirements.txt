@@ -1,0 +1,10 @@
+langchain
+langchain-chroma
+langchain-cohere
+langchain-huggingface
+python-dotenv
+pypdf
+sentence-transformers
+fastapi
+uvicorn
+langchain-community

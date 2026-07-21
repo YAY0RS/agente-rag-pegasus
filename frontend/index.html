@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asistente RAG - Santo Pegasus</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="chat-container">
+      <header class="chat-header">
+        <h2>Asistente de Ingeniería</h2>
+        <p>Santo Pegasus Soluciones</p>
+      </header>
+
+      <main class="chat-box" id="chat-box">
+        <div class="message system-message">
+          Hola, soy el asistente virtual de la documentación técnica. ¿En qué te
+          puedo ayudar hoy?
+        </div>
+      </main>
+
+      <footer class="chat-input-area">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Escribe tu pregunta sobre la arquitectura, manuales o procesos..."
+          autocomplete="off"
+        />
+        <button id="send-btn">Enviar</button>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

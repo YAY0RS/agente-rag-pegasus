@@ -1,0 +1,10 @@
+# Entornos virtuales
+env/
+__pycache__/
+
+# Variables de entorno (¡NUNCA SUBIR EL TOKEN DE COHERE!)
+.env
+
+# Bases de datos y documentos (No se suben a GitHub por peso y privacidad)
+data/chroma_db/
+data/documentos/
