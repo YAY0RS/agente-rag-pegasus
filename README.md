@@ -35,3 +35,36 @@ Para ejecutar este proyecto en tu entorno local necesitas:
    git clone [https://github.com/YAYORS/agente-rag-pegasus.git](https://github.com/YAYORS/agente-rag-pegasus.git)
    cd agente-rag-pegasus
    ```
+2. **Variables de Entorno**
+   Crea un archivo .env en la raíz del proyecto y agrega tu llave de Cohere:
+   ```
+   COHERE_API_KEY=tu_api_key_aqui
+   ```
+3. **Cargar los documentos fuente**
+Como los manuales no se suben a GitHub por privacidad, debes crear la carpeta de datos y colocar tus PDFs técnicos allí:
+   Crea la ruta: data/documentos/
+   Pega dentro de esa carpeta todos los archivos .pdf que la IA deberá leer.
+
+4. **Levantar la infraestructura con Docker**
+   en la terminal situado en la raiz del proyecto (a la altura del docker) poner el sieguiente comando
+   ```
+   docker-compose up -d --build
+   ```
+5. **Crear la Base de Datos Vectorial (Ingesta de datos)**
+   Antes de hacer preguntas, debes procesar los PDFs para que LangChain los fragmente y los guarde matemáticamente en ChromaDB. Ejecuta este comando en tu       terminal para correr el script dentro del contenedor:
+   ```
+   docker-compose exec agente_rag python procesar_documento.py
+   ```
+   (Espera a que la consola indique que los fragmentos se han guardado exitosamente).
+6. Acceso a los servicios:
+
+Front-end (Chat UI): Abre el archivo frontend/index.html directamente en tu navegador web.
+
+API de FastAPI (Swagger UI): Navega a http://localhost:8000/docs.
+
+🗺️ Roadmap y Próximas Mejoras
+[ ] Advanced RAG (History-Aware Retriever): Implementar una reformulación de búsqueda con LangChain para evitar la dilución semántica al cambiar de contexto en conversaciones largas.
+
+[ ] Despliegue en la Nube: Migrar el contenedor de Docker a una instancia de Oracle Cloud Infrastructure (OCI).
+
+Desarrollado por Eduardo García Morales.
