@@ -80,5 +80,24 @@ Para ejecutar este proyecto en tu entorno local necesitas:
 - [ ] **Despliegue en la Nube:** Migrar el contenedor de Docker a una instancia de Oracle Cloud Infrastructure (OCI).
 
 ---
+## Deploy En La Nube
+Hacemos el deploy en OCI, despues de configurar y preparar el entorno ademas de modificar el codigo para que ahora deje de trabajar con las rutas locales y su fucnionamiento sea el correcto podemos utilizarlo y probarlo con la ip publica del servidor colocando en el buscador
+```
+163.192.140.186
+```
+<img width="1917" height="980" alt="image" src="https://github.com/user-attachments/assets/ff038bd1-c031-4855-9571-f25327c2d029" />
 
+## Como Utilizarlo
+para poder utilizar el programa de la manera mas eficiente debemos escribir las preguntas o dudas de la manera correcta para que te suelte la informacion requerida y correcta.
+Si llegas a cambiar de tema y no te da la respuesta esperada debemos recargar el agente para que haga la busqueda correspondiente en el pdf adecuado:
+"hablame sobre microservicios"
+"Reglas principales si hay problemas en el servidor"
+"Con quien me debo dirigir en caso de problemas"
+
+1. <img width="1917" height="1018" alt="image" src="https://github.com/user-attachments/assets/aea2781d-6d80-4cb9-8d6a-de27ca200594" />
+2.<img width="1917" height="1013" alt="image" src="https://github.com/user-attachments/assets/d7eb09ba-fa71-4153-9d1d-5f6668ee2f05" />
+
+
+
+----
 _Desarrollado por Eduardo García Morales._
