@@ -83,7 +83,7 @@ Para ejecutar este proyecto en tu entorno local necesitas:
 ## ☁️ Deploy en la Nube
 El despliegue se realiza en una instancia de Oracle Cloud Infrastructure (OCI). Después de configurar y preparar el entorno, además de modificar el código para que trabaje correctamente con las rutas y endpoints expuestos, puedes utilizar y probar el sistema ingresando la dirección IP pública del servidor directamente en el buscador:  
 ```
-163.192.140.186
+http://163.192.140.186
 ```
 <img width="1917" height="980" alt="image" src="https://github.com/user-attachments/assets/ff038bd1-c031-4855-9571-f25327c2d029" />
 
