@@ -88,9 +88,16 @@ http://163.192.140.186
 <img width="1917" height="980" alt="image" src="https://github.com/user-attachments/assets/ff038bd1-c031-4855-9571-f25327c2d029" />
 
 ## 💡 Cómo Utilizarlo
-Para poder utilizar el programa de la manera más eficiente, debemos escribir las preguntas o dudas de manera clara para que el sistema proporcione la información correcta y requerida. Si llegas a cambiar de tema y no obtienes la respuesta esperada, se recomienda reiniciar el contexto del agente para que realice la búsqueda correspondiente en el PDF adecuado:  "Háblame sobre microservicios"  "Reglas principales si hay problemas en el servidor"  "Con quién me debo dirigir en caso de problemas"
+Para poder utilizar el programa de la manera más eficiente, debemos escribir las preguntas o dudas de manera clara para que el sistema proporcione la información correcta y requerida. Si llegas a cambiar de tema y no obtienes la respuesta esperada, se recomienda reiniciar el contexto del agente para que realice la búsqueda correspondiente en el PDF adecuado:  
+* *"Háblame sobre microservicios"*  
+* *"Reglas principales si hay problemas en el servidor"*  
+* *"Con quién me debo dirigir en caso de problemas"*
+
 1. <img width="1917" height="1018" alt="image" src="https://github.com/user-attachments/assets/aea2781d-6d80-4cb9-8d6a-de27ca200594" />
 2. <img width="1917" height="1013" alt="image" src="https://github.com/user-attachments/assets/d7eb09ba-fa71-4153-9d1d-5f6668ee2f05" />
 
 ----
 _Desarrollado por Eduardo García Morales._
+
+### 💖 Dedicatoria y Agradecimientos
+Este proyecto está dedicado con todo mi cariño a mi familia y a mi novia, cuyo apoyo incondicional, paciencia y motivación constante han sido el motor principal durante todo este proceso de formación y crecimiento en el programa Oracle Next Education (ONE).
